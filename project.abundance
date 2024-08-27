@@ -106,8 +106,8 @@
         {
             "atomType": "Molecule",
             "name": "Middle Slant",
-            "x": 0.28750000000000003,
-            "y": 0.42117647058823526,
+            "x": 0.296875,
+            "y": 0.42823529411764705,
             "uniqueID": 1724798926765,
             "ioValues": [],
             "topLevel": false,
@@ -144,9 +144,9 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 0.18489583333333334,
-                    "y": 0.5552941176470588,
+                    "name": "Supports",
+                    "x": 0.19479166666666667,
+                    "y": 0.47058823529411764,
                     "uniqueID": 1724799102725,
                     "ioValues": [],
                     "topLevel": false,
@@ -158,6 +158,23 @@
                             "y": 0.5,
                             "uniqueID": 1724799103120,
                             "ioValues": []
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.20833333333333334,
+                            "y": 0.3411764705882353,
+                            "uniqueID": 1724799192052,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 10
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [],
@@ -185,11 +202,63 @@
                     "y": 0.5,
                     "uniqueID": 1724798945441,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Platform",
+                    "x": 0.18072916666666666,
+                    "y": 0.6188235294117648,
+                    "uniqueID": 1724799135704,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1724799135739,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Supports",
+                    "x": 0.12343749999999999,
+                    "y": 0.3058823529411765,
+                    "uniqueID": 1724799154868,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1724799155282,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.10520833333333333,
+            "y": 0.3482352941176471,
+            "uniqueID": 1724799217154,
+            "ioValues": []
         }
     ],
     "allConnectors": [],
