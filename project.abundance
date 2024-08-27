@@ -4,7 +4,12 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1724798821181,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Wood Thickness",
+            "ioValue": 18
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
         {
@@ -189,10 +194,15 @@
         {
             "atomType": "Molecule",
             "name": "Front Part",
-            "x": 0.3572916666666667,
-            "y": 0.6776470588235294,
+            "x": 0.3609375,
+            "y": 0.6799999999999999,
             "uniqueID": 1724798945102,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "name1",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -246,6 +256,14 @@
                     "allConnectors": [],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
+                },
+                {
+                    "atomType": "Input",
+                    "name": "name1",
+                    "x": 0.013333333333333334,
+                    "y": 0.5552941176470588,
+                    "uniqueID": 1724799341183,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [],
@@ -253,11 +271,11 @@
             "compiledBom": {}
         },
         {
-            "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.10520833333333333,
-            "y": 0.3482352941176471,
-            "uniqueID": 1724799217154,
+            "atomType": "Input",
+            "name": "Wood Thickness",
+            "x": 0.013333333333333334,
+            "y": 0.5882352941176471,
+            "uniqueID": 1724799229447,
             "ioValues": []
         }
     ],
