@@ -31,6 +31,72 @@
                     "y": 0.5,
                     "uniqueID": 1724798906440,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Drawers",
+                    "x": 0.165625,
+                    "y": 0.23529411764705882,
+                    "uniqueID": 1724799024043,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1724799024105,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Supports",
+                    "x": 0.165625,
+                    "y": 0.4564705882352941,
+                    "uniqueID": 1724799049015,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1724799048936,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Platform",
+                    "x": 0.1640625,
+                    "y": 0.6964705882352942,
+                    "uniqueID": 1724799068183,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1724799067548,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [],
@@ -53,6 +119,50 @@
                     "y": 0.5,
                     "uniqueID": 1724798926512,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Platform",
+                    "x": 0.19687500000000002,
+                    "y": 0.7599999999999999,
+                    "uniqueID": 1724799088466,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1724799087785,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 0.18489583333333334,
+                    "y": 0.5552941176470588,
+                    "uniqueID": 1724799102725,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1724799103120,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [],
@@ -61,7 +171,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
+            "name": "Front Part",
             "x": 0.3572916666666667,
             "y": 0.6776470588235294,
             "uniqueID": 1724798945102,
