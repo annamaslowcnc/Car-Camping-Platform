@@ -183,12 +183,16 @@
         {
             "atomType": "Molecule",
             "name": "Middle Slant",
-            "x": 0.296875,
-            "y": 0.42823529411764705,
+            "x": 0.3,
+            "y": 0.45411764705882357,
             "uniqueID": 1724798926765,
             "ioValues": [
                 {
                     "name": "Wood Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Mid Length",
                     "ioValue": 10
                 }
             ],
@@ -295,6 +299,14 @@
                     "x": 0.013333333333333334,
                     "y": 0.558235294117647,
                     "uniqueID": 1724799515042,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Mid Length",
+                    "x": 0.013333333333333334,
+                    "y": 0.6664705882352941,
+                    "uniqueID": 1724877436159,
                     "ioValues": []
                 }
             ],
@@ -462,7 +474,7 @@
             "atomType": "Input",
             "name": "Back Length",
             "x": 0.013333333333333334,
-            "y": 0.6258823529411764,
+            "y": 0.5929411764705882,
             "uniqueID": 1724799857321,
             "ioValues": []
         },
@@ -478,7 +490,7 @@
             "atomType": "Input",
             "name": "Mid Length",
             "x": 0.013333333333333334,
-            "y": 0.7129411764705882,
+            "y": 0.6964705882352942,
             "uniqueID": 1724799936619,
             "ioValues": []
         },
