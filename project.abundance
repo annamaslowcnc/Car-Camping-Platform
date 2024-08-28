@@ -357,16 +357,6 @@
                             "ioValues": []
                         },
                         {
-                            "atomType": "Readme",
-                            "name": "README",
-                            "x": 0.4911458333333334,
-                            "y": 0.1764705882352941,
-                            "uniqueID": 1724877867754,
-                            "ioValues": [],
-                            "readmeText": "Readme text here",
-                            "global": true
-                        },
-                        {
                             "atomType": "Input",
                             "name": "Mid Length",
                             "x": 0.013333333333333334,
@@ -447,23 +437,6 @@
                                 }
                             ],
                             "currentEquation": "L/2"
-                        },
-                        {
-                            "atomType": "Rectangle",
-                            "name": "Rectangle",
-                            "x": 0.6130208333333333,
-                            "y": 0.40705882352941175,
-                            "uniqueID": 1724880309552,
-                            "ioValues": [
-                                {
-                                    "name": "x length",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "y length",
-                                    "ioValue": 10
-                                }
-                            ]
                         }
                     ],
                     "allConnectors": [
