@@ -418,11 +418,11 @@
                             "ioValues": [
                                 {
                                     "name": "number of sides",
-                                    "ioValue": 6
+                                    "ioValue": 3
                                 },
                                 {
                                     "name": "diameter",
-                                    "ioValue": 10
+                                    "ioValue": 100
                                 }
                             ]
                         }
