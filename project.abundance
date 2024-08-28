@@ -400,8 +400,8 @@
                                 {
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
-                                    "x": 0.24739583333333331,
-                                    "y": 0.39529411764705885,
+                                    "x": 0.18177083333333335,
+                                    "y": 0.5152941176470588,
                                     "uniqueID": 1724882083307,
                                     "ioValues": [
                                         {
@@ -410,16 +410,16 @@
                                         },
                                         {
                                             "name": "y length",
-                                            "ioValue": 132
+                                            "ioValue": 800
                                         }
                                     ]
                                 },
                                 {
                                     "atomType": "Equation",
                                     "name": "P-T",
-                                    "x": 0.140625,
-                                    "y": 0.3623529411764706,
-                                    "uniqueID": 1724882104846,
+                                    "x": 0.17760416666666665,
+                                    "y": 0.24,
+                                    "uniqueID": 1724882296976,
                                     "ioValues": [
                                         {
                                             "name": "P",
@@ -431,6 +431,23 @@
                                         }
                                     ],
                                     "currentEquation": "P-T"
+                                },
+                                {
+                                    "atomType": "Extrude",
+                                    "name": "Extrude",
+                                    "x": 0.2885416666666667,
+                                    "y": 0.3176470588235294,
+                                    "uniqueID": 1724882324570,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": 1724882083307
+                                        },
+                                        {
+                                            "name": "height",
+                                            "ioValue": 132
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -446,21 +463,35 @@
                                     "ap2Name": "T",
                                     "ap2Primary": false,
                                     "ap1ID": 1724881905068,
-                                    "ap2ID": 1724882104846
+                                    "ap2ID": 1724882296976
                                 },
                                 {
                                     "ap1Name": "number or geometry",
                                     "ap2Name": "P",
                                     "ap2Primary": false,
                                     "ap1ID": 1724881905343,
-                                    "ap2ID": 1724882104846
+                                    "ap2ID": 1724882296976
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "y length",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724881905071,
+                                    "ap2ID": 1724882083307
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1724882083307,
+                                    "ap2ID": 1724882324570
                                 },
                                 {
                                     "ap1Name": "result",
-                                    "ap2Name": "y length",
+                                    "ap2Name": "height",
                                     "ap2Primary": false,
-                                    "ap1ID": 1724882104846,
-                                    "ap2ID": 1724882083307
+                                    "ap1ID": 1724882296976,
+                                    "ap2ID": 1724882324570
                                 }
                             ],
                             "fileTypeVersion": 1,
