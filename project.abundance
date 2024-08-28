@@ -302,7 +302,7 @@
                         },
                         {
                             "name": "Trunk width",
-                            "ioValue": 10
+                            "ioValue": 1400
                         }
                     ],
                     "topLevel": false,
@@ -356,7 +356,7 @@
                                 },
                                 {
                                     "name": "Trunk width",
-                                    "ioValue": 10
+                                    "ioValue": 1400
                                 }
                             ],
                             "topLevel": false,
@@ -493,15 +493,15 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": 1724882324570
+                                            "ioValue": 1724882374002
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 6.666666666666666
+                                            "ioValue": 0
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 0
+                                            "ioValue": 933.3333333333333
                                         },
                                         {
                                             "name": "zDist",
@@ -518,7 +518,7 @@
                                     "ioValues": [
                                         {
                                             "name": "W",
-                                            "ioValue": 10
+                                            "ioValue": 1400
                                         }
                                     ],
                                     "currentEquation": "(2/3)*W"
@@ -629,13 +629,6 @@
                                     "ap2ID": 1724882374002
                                 },
                                 {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": true,
-                                    "ap1ID": 1724882324570,
-                                    "ap2ID": 1724882384764
-                                },
-                                {
                                     "ap1Name": "result",
                                     "ap2Name": "xDist",
                                     "ap2Primary": false,
@@ -651,6 +644,13 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1724882374002,
+                                    "ap2ID": 1724882384764
+                                },
+                                {
+                                    "ap1Name": "geometry",
                                     "ap2Name": "3D shape 2",
                                     "ap2Primary": false,
                                     "ap1ID": 1724882384764,
@@ -658,7 +658,7 @@
                                 },
                                 {
                                     "ap1Name": "result",
-                                    "ap2Name": "xDist",
+                                    "ap2Name": "yDist",
                                     "ap2Primary": false,
                                     "ap1ID": 1724882389112,
                                     "ap2ID": 1724882384764
@@ -857,6 +857,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1724878174740,
                             "ap2ID": 1724881970231
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Trunk width",
+                            "ap2Primary": false,
+                            "ap1ID": 1724882590438,
+                            "ap2ID": 1724881904877
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -901,6 +908,13 @@
                     "ap2Name": "Mid Length",
                     "ap2Primary": false,
                     "ap1ID": 1724877436159,
+                    "ap2ID": 1724799102725
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Trunk width",
+                    "ap2Primary": false,
+                    "ap1ID": 1724877512497,
                     "ap2ID": 1724799102725
                 },
                 {
