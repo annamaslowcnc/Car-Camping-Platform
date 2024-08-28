@@ -294,7 +294,7 @@
                     "ioValues": [
                         {
                             "name": "Wood Thickness",
-                            "ioValue": 10
+                            "ioValue": 18
                         },
                         {
                             "name": "Platform Height",
@@ -302,7 +302,7 @@
                         },
                         {
                             "name": "Mid Length",
-                            "ioValue": 10
+                            "ioValue": 800
                         }
                     ],
                     "topLevel": false,
@@ -324,11 +324,11 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 10
+                                    "ioValue": 18
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 10
+                                    "ioValue": 800
                                 }
                             ]
                         },
@@ -427,7 +427,29 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Wood Thickness",
+                    "ap2Primary": false,
+                    "ap1ID": 1724799515042,
+                    "ap2ID": 1724799102725
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Mid Length",
+                    "ap2Primary": false,
+                    "ap1ID": 1724877436159,
+                    "ap2ID": 1724799102725
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Platform Height",
+                    "ap2Primary": false,
+                    "ap1ID": 1724877512459,
+                    "ap2ID": 1724799102725
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         },
