@@ -299,6 +299,10 @@
                         {
                             "name": "Mid Length",
                             "ioValue": 800
+                        },
+                        {
+                            "name": "Trunk width",
+                            "ioValue": 10
                         }
                     ],
                     "topLevel": false,
@@ -315,7 +319,7 @@
                             "atomType": "Input",
                             "name": "Wood Thickness",
                             "x": 0.013333333333333334,
-                            "y": 0.23058823529411765,
+                            "y": 0.24235294117647058,
                             "uniqueID": 1724877643704,
                             "ioValues": []
                         },
@@ -417,8 +421,8 @@
                                 {
                                     "atomType": "Equation",
                                     "name": "P-T",
-                                    "x": 0.17760416666666665,
-                                    "y": 0.24,
+                                    "x": 0.13958333333333334,
+                                    "y": 0.31529411764705884,
                                     "uniqueID": 1724882296976,
                                     "ioValues": [
                                         {
@@ -451,21 +455,17 @@
                                 },
                                 {
                                     "atomType": "Equation",
-                                    "name": "x + y",
-                                    "x": 0.2989583333333333,
-                                    "y": 0.08,
+                                    "name": "T/2",
+                                    "x": 0.184375,
+                                    "y": 0.08470588235294117,
                                     "uniqueID": 1724882369630,
                                     "ioValues": [
                                         {
-                                            "name": "x",
-                                            "ioValue": 1
-                                        },
-                                        {
-                                            "name": "y",
-                                            "ioValue": 1
+                                            "name": "T",
+                                            "ioValue": 18
                                         }
                                     ],
-                                    "currentEquation": "x + y"
+                                    "currentEquation": "T/2"
                                 },
                                 {
                                     "atomType": "Move",
@@ -476,15 +476,15 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": ""
+                                            "ioValue": 1724882324570
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 0
+                                            "ioValue": 9
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 0
+                                            "ioValue": 400
                                         },
                                         {
                                             "name": "zDist",
@@ -537,21 +537,17 @@
                                 },
                                 {
                                     "atomType": "Equation",
-                                    "name": "x + y",
-                                    "x": 0.3848958333333333,
-                                    "y": 0.1458823529411765,
+                                    "name": "L/2",
+                                    "x": 0.34479166666666666,
+                                    "y": 0.1035294117647059,
                                     "uniqueID": 1724882474041,
                                     "ioValues": [
                                         {
-                                            "name": "x",
-                                            "ioValue": 1
-                                        },
-                                        {
-                                            "name": "y",
-                                            "ioValue": 1
+                                            "name": "L",
+                                            "ioValue": 800
                                         }
                                     ],
-                                    "currentEquation": "x + y"
+                                    "currentEquation": "L/2"
                                 }
                             ],
                             "allConnectors": [
@@ -571,6 +567,13 @@
                                 },
                                 {
                                     "ap1Name": "number or geometry",
+                                    "ap2Name": "T",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724881905068,
+                                    "ap2ID": 1724882369630
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
                                     "ap2Name": "P",
                                     "ap2Primary": false,
                                     "ap1ID": 1724881905343,
@@ -582,6 +585,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 1724881905071,
                                     "ap2ID": 1724882083307
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "L",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724881905071,
+                                    "ap2ID": 1724882474041
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -596,6 +606,27 @@
                                     "ap2Primary": false,
                                     "ap1ID": 1724882296976,
                                     "ap2ID": 1724882324570
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1724882324570,
+                                    "ap2ID": 1724882374002
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "xDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724882369630,
+                                    "ap2ID": 1724882374002
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "yDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724882474041,
+                                    "ap2ID": 1724882374002
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -718,6 +749,14 @@
                             "allConnectors": [],
                             "fileTypeVersion": 1,
                             "compiledBom": {}
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Trunk width",
+                            "x": 0.013333333333333334,
+                            "y": 0.7435294117647059,
+                            "uniqueID": 1724882590438,
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
