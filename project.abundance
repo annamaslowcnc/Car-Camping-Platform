@@ -400,31 +400,6 @@
                             "currentEquation": "P-(2*T)"
                         },
                         {
-                            "atomType": "Move",
-                            "name": "Move",
-                            "x": 0.3755208333333333,
-                            "y": 0.6329411764705882,
-                            "uniqueID": 1724879652024,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1724878674187
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 400
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 0
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Equation",
                             "name": "L/2",
                             "x": 0.24947916666666667,
@@ -483,25 +458,11 @@
                             "ap2ID": 1724879672656
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1724878674187,
-                            "ap2ID": 1724879652024
-                        },
-                        {
                             "ap1Name": "result",
                             "ap2Name": "height",
                             "ap2Primary": false,
                             "ap1ID": 1724878685075,
                             "ap2ID": 1724878674187
-                        },
-                        {
-                            "ap1Name": "result",
-                            "ap2Name": "yDist",
-                            "ap2Primary": false,
-                            "ap1ID": 1724879672656,
-                            "ap2ID": 1724879652024
                         }
                     ],
                     "fileTypeVersion": 1,
