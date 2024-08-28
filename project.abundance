@@ -43,8 +43,8 @@
         {
             "atomType": "Molecule",
             "name": "Very Back",
-            "x": 0.2203125,
-            "y": 0.2376470588235294,
+            "x": 0.19010416666666669,
+            "y": 0.2188235294117647,
             "uniqueID": 1724798906557,
             "ioValues": [
                 {
@@ -219,8 +219,8 @@
         {
             "atomType": "Molecule",
             "name": "Middle Slant",
-            "x": 0.3,
-            "y": 0.45411764705882357,
+            "x": 0.271875,
+            "y": 0.5011764705882353,
             "uniqueID": 1724798926765,
             "ioValues": [
                 {
@@ -295,6 +295,10 @@
                         {
                             "name": "Wood Thickness",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "Platform Height",
+                            "ioValue": 10
                         }
                     ],
                     "topLevel": false,
@@ -331,9 +335,33 @@
                             "y": 0.558235294117647,
                             "uniqueID": 1724799517527,
                             "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Wood Thickness",
+                            "x": 0.013333333333333334,
+                            "y": 0.23058823529411765,
+                            "uniqueID": 1724877643704,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Platform Height",
+                            "x": 0.013333333333333334,
+                            "y": 0.37764705882352934,
+                            "uniqueID": 1724877643003,
+                            "ioValues": []
                         }
                     ],
-                    "allConnectors": [],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "x length",
+                            "ap2Primary": false,
+                            "ap1ID": 1724877643704,
+                            "ap2ID": 1724799192052
+                        }
+                    ],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
                 },
@@ -377,8 +405,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Part",
-            "x": 0.3609375,
-            "y": 0.6799999999999999,
+            "x": 0.3083333333333333,
+            "y": 0.7670588235294118,
             "uniqueID": 1724798945102,
             "ioValues": [
                 {
@@ -623,10 +651,52 @@
         },
         {
             "ap1Name": "number or geometry",
+            "ap2Name": "Trunk width",
+            "ap2Primary": false,
+            "ap1ID": 1724799852830,
+            "ap2ID": 1724798926765
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Trunk width",
+            "ap2Primary": false,
+            "ap1ID": 1724799852830,
+            "ap2ID": 1724798906557
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Trunk width",
+            "ap2Primary": false,
+            "ap1ID": 1724799852830,
+            "ap2ID": 1724798945102
+        },
+        {
+            "ap1Name": "number or geometry",
             "ap2Name": "Back Length",
             "ap2Primary": false,
             "ap1ID": 1724799857321,
             "ap2ID": 1724798906557
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Platform Height",
+            "ap2Primary": false,
+            "ap1ID": 1724799866944,
+            "ap2ID": 1724798926765
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Platform Height",
+            "ap2Primary": false,
+            "ap1ID": 1724799866944,
+            "ap2ID": 1724798906557
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Platform Height",
+            "ap2Primary": false,
+            "ap1ID": 1724799866944,
+            "ap2ID": 1724798945102
         },
         {
             "ap1Name": "number or geometry",
