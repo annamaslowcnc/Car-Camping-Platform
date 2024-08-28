@@ -19,7 +19,7 @@
         },
         {
             "name": "Platform Height",
-            "ioValue": 10
+            "ioValue": 150
         },
         {
             "name": "Mid Length",
@@ -61,7 +61,7 @@
                 },
                 {
                     "name": "Platform Height",
-                    "ioValue": 10
+                    "ioValue": 150
                 }
             ],
             "topLevel": false,
@@ -237,7 +237,7 @@
                 },
                 {
                     "name": "Platform Height",
-                    "ioValue": 10
+                    "ioValue": 150
                 }
             ],
             "topLevel": false,
@@ -294,7 +294,7 @@
                     "ioValues": [
                         {
                             "name": "Platform Height",
-                            "ioValue": 10
+                            "ioValue": 150
                         },
                         {
                             "name": "Mid Length",
@@ -348,7 +348,7 @@
                                 },
                                 {
                                     "name": "Platform Height",
-                                    "ioValue": 10
+                                    "ioValue": 150
                                 },
                                 {
                                     "name": "Mid Length",
@@ -377,7 +377,7 @@
                                     "atomType": "Input",
                                     "name": "Wood Thickness",
                                     "x": 0.013333333333333334,
-                                    "y": 0.23058823529411765,
+                                    "y": 0.19294117647058825,
                                     "uniqueID": 1724881905068,
                                     "ioValues": []
                                 },
@@ -406,34 +406,63 @@
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 10
+                                            "ioValue": 18
                                         },
                                         {
                                             "name": "y length",
-                                            "ioValue": 10
+                                            "ioValue": 132
                                         }
                                     ]
                                 },
                                 {
                                     "atomType": "Equation",
-                                    "name": "x + y",
+                                    "name": "P-T",
                                     "x": 0.140625,
                                     "y": 0.3623529411764706,
                                     "uniqueID": 1724882104846,
                                     "ioValues": [
                                         {
-                                            "name": "x",
-                                            "ioValue": 1
+                                            "name": "P",
+                                            "ioValue": 150
                                         },
                                         {
-                                            "name": "y",
-                                            "ioValue": 1
+                                            "name": "T",
+                                            "ioValue": 18
                                         }
                                     ],
-                                    "currentEquation": "x + y"
+                                    "currentEquation": "P-T"
                                 }
                             ],
-                            "allConnectors": [],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "x length",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724881905559,
+                                    "ap2ID": 1724882083307
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "T",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724881905068,
+                                    "ap2ID": 1724882104846
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "P",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724881905343,
+                                    "ap2ID": 1724882104846
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "y length",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724882104846,
+                                    "ap2ID": 1724882083307
+                                }
+                            ],
                             "fileTypeVersion": 1,
                             "compiledBom": {}
                         },
@@ -450,7 +479,7 @@
                                 },
                                 {
                                     "name": "Platform Height",
-                                    "ioValue": 10
+                                    "ioValue": 150
                                 },
                                 {
                                     "name": "Mid Length",
@@ -509,7 +538,7 @@
                                 },
                                 {
                                     "name": "Platform Height",
-                                    "ioValue": 10
+                                    "ioValue": 150
                                 },
                                 {
                                     "name": "Mid Length",
@@ -690,7 +719,7 @@
                 },
                 {
                     "name": "Platform Height",
-                    "ioValue": 10
+                    "ioValue": 150
                 }
             ],
             "topLevel": false,
