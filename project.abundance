@@ -11,7 +11,7 @@
         },
         {
             "name": "Trunk width",
-            "ioValue": 10
+            "ioValue": 1400
         },
         {
             "name": "Back Length",
@@ -57,7 +57,7 @@
                 },
                 {
                     "name": "Trunk width",
-                    "ioValue": 10
+                    "ioValue": 1400
                 },
                 {
                     "name": "Platform Height",
@@ -233,7 +233,7 @@
                 },
                 {
                     "name": "Trunk width",
-                    "ioValue": 10
+                    "ioValue": 1400
                 },
                 {
                     "name": "Platform Height",
@@ -299,6 +299,10 @@
                         {
                             "name": "Platform Height",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "Mid Length",
+                            "ioValue": 10
                         }
                     ],
                     "topLevel": false,
@@ -361,6 +365,14 @@
                             "ioValues": [],
                             "readmeText": "Readme text here",
                             "global": true
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Mid Length",
+                            "x": 0.013333333333333334,
+                            "y": 0.7270588235294118,
+                            "uniqueID": 1724878174740,
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -369,6 +381,13 @@
                             "ap2Name": "x length",
                             "ap2Primary": false,
                             "ap1ID": 1724877643704,
+                            "ap2ID": 1724799192052
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "y length",
+                            "ap2Primary": false,
+                            "ap1ID": 1724878174740,
                             "ap2ID": 1724799192052
                         }
                     ],
@@ -429,7 +448,7 @@
                 },
                 {
                     "name": "Trunk width",
-                    "ioValue": 10
+                    "ioValue": 1400
                 },
                 {
                     "name": "Platform Height",
