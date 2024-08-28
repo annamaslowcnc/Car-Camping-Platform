@@ -408,6 +408,23 @@
                                 }
                             ],
                             "currentEquation": "P-(2*T)"
+                        },
+                        {
+                            "atomType": "RegularPolygon",
+                            "name": "RegularPolygon",
+                            "x": 0.3723958333333333,
+                            "y": 0.5623529411764706,
+                            "uniqueID": 1724879107819,
+                            "ioValues": [
+                                {
+                                    "name": "number of sides",
+                                    "ioValue": 6
+                                },
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 10
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
