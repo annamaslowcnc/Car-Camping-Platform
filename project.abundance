@@ -15,7 +15,7 @@
         },
         {
             "name": "Back Length",
-            "ioValue": 10
+            "ioValue": 1000
         },
         {
             "name": "Platform Height",
@@ -23,11 +23,11 @@
         },
         {
             "name": "Mid Length",
-            "ioValue": 10
+            "ioValue": 800
         },
         {
             "name": "Front Length",
-            "ioValue": 10
+            "ioValue": 50
         }
     ],
     "topLevel": true,
@@ -53,7 +53,7 @@
                 },
                 {
                     "name": "Back Length",
-                    "ioValue": 10
+                    "ioValue": 1000
                 },
                 {
                     "name": "Trunk width",
@@ -229,7 +229,7 @@
                 },
                 {
                     "name": "Mid Length",
-                    "ioValue": 10
+                    "ioValue": 800
                 },
                 {
                     "name": "Trunk width",
@@ -444,7 +444,7 @@
                 },
                 {
                     "name": "Front Length",
-                    "ioValue": 10
+                    "ioValue": 50
                 },
                 {
                     "name": "Trunk width",
