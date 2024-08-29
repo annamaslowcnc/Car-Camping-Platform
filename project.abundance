@@ -209,22 +209,48 @@
                                 {
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
-                                    "x": 0.17916666666666667,
-                                    "y": 0.3458823529411765,
+                                    "x": 0.178125,
+                                    "y": 0.35058823529411764,
                                     "uniqueID": 1724964785958,
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 10
+                                            "ioValue": 600
                                         },
                                         {
                                             "name": "y length",
-                                            "ioValue": 10
+                                            "ioValue": 18
                                         }
                                     ]
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "x + y",
+                                    "x": 0.17291666666666666,
+                                    "y": 0.15294117647058825,
+                                    "uniqueID": 1724964894008,
+                                    "ioValues": [
+                                        {
+                                            "name": "x",
+                                            "ioValue": 1
+                                        },
+                                        {
+                                            "name": "y",
+                                            "ioValue": 1
+                                        }
+                                    ],
+                                    "currentEquation": "x + y"
                                 }
                             ],
-                            "allConnectors": [],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "y length",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724964538002,
+                                    "ap2ID": 1724964785958
+                                }
+                            ],
                             "fileTypeVersion": 1,
                             "compiledBom": {}
                         }
