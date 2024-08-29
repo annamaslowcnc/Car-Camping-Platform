@@ -494,8 +494,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Supports",
-                    "x": 0.175,
-                    "y": 0.2823529411764706,
+                    "x": 0.20104166666666667,
+                    "y": 0.29411764705882354,
                     "uniqueID": 1724799102725,
                     "ioValues": [
                         {
@@ -2286,9 +2286,41 @@
                     "y": 0.40764705882352936,
                     "uniqueID": 1724877512459,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Join",
+                    "name": "Assembly",
+                    "x": 0.3328125,
+                    "y": 0.5505882352941176,
+                    "uniqueID": 1724959177941,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 1724799102725
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 1724799088466
+                        }
+                    ],
+                    "unionType": "Assembly"
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1724799088466,
+                    "ap2ID": 1724959177941
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 1724799102725,
+                    "ap2ID": 1724959177941
+                },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Wood Thickness",
