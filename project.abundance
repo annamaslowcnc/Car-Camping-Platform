@@ -790,6 +790,10 @@
                                 {
                                     "name": "Mid Length",
                                     "ioValue": 10
+                                },
+                                {
+                                    "name": "Trunk width",
+                                    "ioValue": 1400
                                 }
                             ],
                             "topLevel": false,
@@ -825,9 +829,49 @@
                                     "y": 0.52,
                                     "uniqueID": 1724881952492,
                                     "ioValues": []
+                                },
+                                {
+                                    "atomType": "Rectangle",
+                                    "name": "Rectangle",
+                                    "x": 0.203125,
+                                    "y": 0.5576470588235294,
+                                    "uniqueID": 1724952771277,
+                                    "ioValues": [
+                                        {
+                                            "name": "x length",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "y length",
+                                            "ioValue": 1400
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Trunk width",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.7135294117647059,
+                                    "uniqueID": 1724952793850,
+                                    "ioValues": []
                                 }
                             ],
-                            "allConnectors": [],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "x length",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724881952457,
+                                    "ap2ID": 1724952771277
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "y length",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724952793850,
+                                    "ap2ID": 1724952771277
+                                }
+                            ],
                             "fileTypeVersion": 1,
                             "compiledBom": {}
                         },
@@ -955,6 +999,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1724882590438,
                             "ap2ID": 1724881904877
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Trunk width",
+                            "ap2Primary": false,
+                            "ap1ID": 1724882590438,
+                            "ap2ID": 1724881952069
                         }
                     ],
                     "fileTypeVersion": 1,
