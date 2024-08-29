@@ -1231,8 +1231,8 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.19322916666666667,
-                                    "y": 0.26823529411764707,
+                                    "x": 0.13802083333333334,
+                                    "y": 0.24235294117647058,
                                     "uniqueID": 1724955919726,
                                     "ioValues": [
                                         {
@@ -1240,9 +1240,74 @@
                                             "ioValue": 10
                                         }
                                     ]
+                                },
+                                {
+                                    "atomType": "Rotate",
+                                    "name": "Rotate",
+                                    "x": 0.25364583333333335,
+                                    "y": 0.2588235294117647,
+                                    "uniqueID": 1724955987672,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": 1724955919726
+                                        },
+                                        {
+                                            "name": "x-axis degrees",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "y-axis degrees",
+                                            "ioValue": 90
+                                        },
+                                        {
+                                            "name": "z-axis degrees",
+                                            "ioValue": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.38645833333333335,
+                                    "y": 0.24705882352941178,
+                                    "uniqueID": 1724956020420,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": 1724955987672
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": -100
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": -5
+                                        }
+                                    ]
                                 }
                             ],
-                            "allConnectors": [],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1724955919726,
+                                    "ap2ID": 1724955987672
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1724955987672,
+                                    "ap2ID": 1724956020420
+                                }
+                            ],
                             "fileTypeVersion": 1,
                             "compiledBom": {}
                         },
