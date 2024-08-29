@@ -1279,15 +1279,15 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": -100
+                                            "ioValue": -400
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 0
+                                            "ioValue": 100
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -5
+                                            "ioValue": 0
                                         }
                                     ]
                                 }
