@@ -92,6 +92,10 @@
                         {
                             "name": "Platform Height",
                             "ioValue": 150
+                        },
+                        {
+                            "name": "Wood Thickness",
+                            "ioValue": 18
                         }
                     ],
                     "topLevel": false,
@@ -102,14 +106,6 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1724799024105,
-                            "ioValues": []
-                        },
-                        {
-                            "atomType": "Input",
-                            "name": "Wood Thickness",
-                            "x": 0.013333333333333334,
-                            "y": 0.4658823529411764,
-                            "uniqueID": 1724964382023,
                             "ioValues": []
                         },
                         {
@@ -135,9 +131,117 @@
                             "y": 0.3058823529411765,
                             "uniqueID": 1724964381593,
                             "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Wood Thickness",
+                            "x": 0.013333333333333334,
+                            "y": 0.4329411764705882,
+                            "uniqueID": 1724964476369,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Molecule",
+                            "name": "One Drawer",
+                            "x": 0.17916666666666667,
+                            "y": 0.31529411764705884,
+                            "uniqueID": 1724964538322,
+                            "ioValues": [
+                                {
+                                    "name": "Back Length",
+                                    "ioValue": 1000
+                                },
+                                {
+                                    "name": "Trunk width",
+                                    "ioValue": 1400
+                                },
+                                {
+                                    "name": "Platform Height",
+                                    "ioValue": 150
+                                },
+                                {
+                                    "name": "Wood Thickness",
+                                    "ioValue": 18
+                                }
+                            ],
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.98,
+                                    "y": 0.5,
+                                    "uniqueID": 1724964538173,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Back Length",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.6541176470588235,
+                                    "uniqueID": 1724964537637,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Trunk width",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.7741176470588235,
+                                    "uniqueID": 1724964538199,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Platform Height",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.3058823529411765,
+                                    "uniqueID": 1724964537378,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Wood Thickness",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.4329411764705882,
+                                    "uniqueID": 1724964538002,
+                                    "ioValues": []
+                                }
+                            ],
+                            "allConnectors": [],
+                            "fileTypeVersion": 1,
+                            "compiledBom": {}
                         }
                     ],
-                    "allConnectors": [],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Back Length",
+                            "ap2Primary": false,
+                            "ap1ID": 1724964382232,
+                            "ap2ID": 1724964538322
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Trunk width",
+                            "ap2Primary": false,
+                            "ap1ID": 1724964382148,
+                            "ap2ID": 1724964538322
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Platform Height",
+                            "ap2Primary": false,
+                            "ap1ID": 1724964381593,
+                            "ap2ID": 1724964538322
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Wood Thickness",
+                            "ap2Primary": false,
+                            "ap1ID": 1724964476369,
+                            "ap2ID": 1724964538322
+                        }
+                    ],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
                 },
@@ -576,6 +680,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1724799495347,
                     "ap2ID": 1724799068183
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Wood Thickness",
+                    "ap2Primary": false,
+                    "ap1ID": 1724799495347,
+                    "ap2ID": 1724799024043
                 },
                 {
                     "ap1Name": "number or geometry",
