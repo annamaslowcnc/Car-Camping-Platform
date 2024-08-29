@@ -1308,7 +1308,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 0
+                                            "ioValue": 800
                                         },
                                         {
                                             "name": "zDist",
@@ -1319,8 +1319,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.5260416666666667,
-                                    "y": 0.7552941176470588,
+                                    "x": 0.5291666666666667,
+                                    "y": 0.7905882352941177,
                                     "uniqueID": 1724956634600,
                                     "ioValues": [
                                         {
@@ -1337,12 +1337,67 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 0
+                                            "ioValue": 150
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "ShrinkWrap",
+                                    "name": "Shrink Wrap",
+                                    "x": 0.5947916666666666,
+                                    "y": 0.35764705882352943,
+                                    "uniqueID": 1724956722187,
+                                    "ioValues": [
+                                        {
+                                            "name": "3D shape 1",
+                                            "ioValue": 1724956020420
+                                        },
+                                        {
+                                            "name": "3D shape 2",
+                                            "ioValue": 1724956613924
+                                        },
+                                        {
+                                            "name": "3D shape 3",
+                                            "ioValue": 1724956634600
+                                        },
+                                        {
+                                            "name": "3D shape 4",
+                                            "ioValue": ""
+                                        },
+                                        {
+                                            "name": "3D shape 1",
+                                            "ioValue": 1724956020420
+                                        },
+                                        {
+                                            "name": "3D shape 2",
+                                            "ioValue": 1724956613924
+                                        },
+                                        {
+                                            "name": "3D shape 3",
+                                            "ioValue": 1724956634600
+                                        },
+                                        {
+                                            "name": "3D shape 4",
+                                            "ioValue": ""
                                         }
                                     ]
                                 }
                             ],
                             "allConnectors": [
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "zDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724881969565,
+                                    "ap2ID": 1724956634600
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "yDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724881969365,
+                                    "ap2ID": 1724956613924
+                                },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
@@ -1366,10 +1421,31 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724956020420,
+                                    "ap2ID": 1724956722187
+                                },
+                                {
+                                    "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": 1724956613924,
                                     "ap2ID": 1724956634600
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724956613924,
+                                    "ap2ID": 1724956722187
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 3",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724956634600,
+                                    "ap2ID": 1724956722187
                                 }
                             ],
                             "fileTypeVersion": 1,
