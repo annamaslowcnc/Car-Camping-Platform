@@ -154,6 +154,18 @@
                         {
                             "name": "Wood Thickness",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "Back Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Trunk width",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Platform Height",
+                            "ioValue": 10
                         }
                     ],
                     "topLevel": false,
@@ -170,9 +182,50 @@
                             "atomType": "Input",
                             "name": "Wood Thickness",
                             "x": 0.013333333333333334,
-                            "y": 0.558235294117647,
+                            "y": 0.26823529411764707,
                             "uniqueID": 1724799509073,
                             "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Back Length",
+                            "x": 0.013333333333333334,
+                            "y": 0.6611764705882354,
+                            "uniqueID": 1724962545700,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Trunk width",
+                            "x": 0.013333333333333334,
+                            "y": 0.5247058823529412,
+                            "uniqueID": 1724962545803,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Platform Height",
+                            "x": 0.013333333333333334,
+                            "y": 0.3976470588235294,
+                            "uniqueID": 1724962545167,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.24270833333333336,
+                            "y": 0.24235294117647058,
+                            "uniqueID": 1724962649395,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 10
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [],
@@ -199,7 +252,7 @@
                     "atomType": "Input",
                     "name": "Trunk width",
                     "x": 0.013333333333333334,
-                    "y": 0.2852941176470588,
+                    "y": 0.29411764705882354,
                     "uniqueID": 1724877504609,
                     "ioValues": []
                 },
