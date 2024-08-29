@@ -311,6 +311,10 @@
                                         {
                                             "name": "3D shape 3",
                                             "ioValue": 1724965168940
+                                        },
+                                        {
+                                            "name": "3D shape 4",
+                                            "ioValue": 1724966053566
                                         }
                                     ],
                                     "unionType": "Assembly"
@@ -401,6 +405,31 @@
                                         }
                                     ],
                                     "currentEquation": "L/2"
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.5427083333333333,
+                                    "y": 0.5599999999999999,
+                                    "uniqueID": 1724966053566,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": 1724965287532
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 450
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -522,6 +551,27 @@
                                     "ap2Primary": true,
                                     "ap1ID": 1724965229155,
                                     "ap2ID": 1724965287532
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1724965287532,
+                                    "ap2ID": 1724966053566
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "yDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724965614641,
+                                    "ap2ID": 1724966053566
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 4",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724966053566,
+                                    "ap2ID": 1724965090003
                                 }
                             ],
                             "fileTypeVersion": 1,
