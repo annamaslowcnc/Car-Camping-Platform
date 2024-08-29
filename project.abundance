@@ -804,7 +804,12 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1724881952125,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": 1724953747932
+                                        }
+                                    ]
                                 },
                                 {
                                     "atomType": "Input",
@@ -1145,10 +1150,17 @@
                                     "ap2Primary": false,
                                     "ap1ID": 1724953677201,
                                     "ap2ID": 1724952946782
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724953747932,
+                                    "ap2ID": 1724881952125
                                 }
                             ],
                             "fileTypeVersion": 1,
-                            "compiledBom": {}
+                            "compiledBom": []
                         },
                         {
                             "atomType": "Molecule",
@@ -1203,6 +1215,37 @@
                                     "y": 0.52,
                                     "uniqueID": 1724881969365,
                                     "ioValues": []
+                                },
+                                {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.19427083333333334,
+                                    "y": 0.24235294117647058,
+                                    "uniqueID": 1724953845853,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 10
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "x + y",
+                                    "x": 0.15260416666666668,
+                                    "y": 0.4047058823529412,
+                                    "uniqueID": 1724953886372,
+                                    "ioValues": [
+                                        {
+                                            "name": "x",
+                                            "ioValue": 1
+                                        },
+                                        {
+                                            "name": "y",
+                                            "ioValue": 1
+                                        }
+                                    ],
+                                    "currentEquation": "x + y"
                                 }
                             ],
                             "allConnectors": [],
