@@ -918,8 +918,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.45625000000000004,
-                                    "y": 0.38823529411764707,
+                                    "x": 0.4666666666666667,
+                                    "y": 0.6941176470588235,
                                     "uniqueID": 1724952932934,
                                     "ioValues": [
                                         {
@@ -939,6 +939,49 @@
                                             "ioValue": 0
                                         }
                                     ]
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.5104166666666666,
+                                    "y": 0.28705882352941176,
+                                    "uniqueID": 1724952946782,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": ""
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "x + y",
+                                    "x": 0.26666666666666666,
+                                    "y": 0.7670588235294118,
+                                    "uniqueID": 1724952954727,
+                                    "ioValues": [
+                                        {
+                                            "name": "x",
+                                            "ioValue": 1
+                                        },
+                                        {
+                                            "name": "y",
+                                            "ioValue": 1
+                                        }
+                                    ],
+                                    "currentEquation": "x + y"
                                 }
                             ],
                             "allConnectors": [
