@@ -147,25 +147,25 @@
                 {
                     "atomType": "Molecule",
                     "name": "Platform",
-                    "x": 0.1609375,
-                    "y": 0.7058823529411764,
+                    "x": 0.16927083333333331,
+                    "y": 0.7764705882352941,
                     "uniqueID": 1724799068183,
                     "ioValues": [
                         {
                             "name": "Wood Thickness",
-                            "ioValue": 10
+                            "ioValue": 18
                         },
                         {
                             "name": "Back Length",
-                            "ioValue": 10
+                            "ioValue": 1000
                         },
                         {
                             "name": "Trunk width",
-                            "ioValue": 10
+                            "ioValue": 1400
                         },
                         {
                             "name": "Platform Height",
-                            "ioValue": 10
+                            "ioValue": 150
                         }
                     ],
                     "topLevel": false,
@@ -190,7 +190,7 @@
                             "atomType": "Input",
                             "name": "Back Length",
                             "x": 0.013333333333333334,
-                            "y": 0.6611764705882354,
+                            "y": 0.6847058823529412,
                             "uniqueID": 1724962545700,
                             "ioValues": []
                         },
@@ -213,22 +213,37 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.24270833333333336,
+                            "x": 0.24635416666666668,
                             "y": 0.24235294117647058,
                             "uniqueID": 1724962649395,
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 10
+                                    "ioValue": 1400
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 10
+                                    "ioValue": 1000
                                 }
                             ]
                         }
                     ],
-                    "allConnectors": [],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "y length",
+                            "ap2Primary": false,
+                            "ap1ID": 1724962545700,
+                            "ap2ID": 1724962649395
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "x length",
+                            "ap2Primary": false,
+                            "ap1ID": 1724962545803,
+                            "ap2ID": 1724962649395
+                        }
+                    ],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
                 },
@@ -252,7 +267,7 @@
                     "atomType": "Input",
                     "name": "Trunk width",
                     "x": 0.013333333333333334,
-                    "y": 0.29411764705882354,
+                    "y": 0.24470588235294116,
                     "uniqueID": 1724877504609,
                     "ioValues": []
                 },
@@ -265,7 +280,36 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Wood Thickness",
+                    "ap2Primary": false,
+                    "ap1ID": 1724799495347,
+                    "ap2ID": 1724799068183
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Back Length",
+                    "ap2Primary": false,
+                    "ap1ID": 1724877444182,
+                    "ap2ID": 1724799068183
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Trunk width",
+                    "ap2Primary": false,
+                    "ap1ID": 1724877504609,
+                    "ap2ID": 1724799068183
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Platform Height",
+                    "ap2Primary": false,
+                    "ap1ID": 1724877505241,
+                    "ap2ID": 1724799068183
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         },
