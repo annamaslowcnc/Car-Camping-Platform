@@ -261,8 +261,8 @@
                                 {
                                     "atomType": "Equation",
                                     "name": "L-100",
-                                    "x": 0.29635416666666664,
-                                    "y": 0.47764705882352937,
+                                    "x": 0.12760416666666666,
+                                    "y": 0.6470588235294118,
                                     "uniqueID": 1724964998346,
                                     "ioValues": [
                                         {
@@ -357,8 +357,8 @@
                                 {
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
-                                    "x": 0.33854166666666663,
-                                    "y": 0.7341176470588235,
+                                    "x": 0.296875,
+                                    "y": 0.7176470588235294,
                                     "uniqueID": 1724965229155,
                                     "ioValues": [
                                         {
@@ -387,6 +387,20 @@
                                             "ioValue": 18
                                         }
                                     ]
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "L/2",
+                                    "x": 0.309375,
+                                    "y": 0.9152941176470588,
+                                    "uniqueID": 1724965614641,
+                                    "ioValues": [
+                                        {
+                                            "name": "L",
+                                            "ioValue": 900
+                                        }
+                                    ],
+                                    "currentEquation": "L/2"
                                 }
                             ],
                             "allConnectors": [
@@ -473,6 +487,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 1724964998346,
                                     "ap2ID": 1724965229155
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "L",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724964998346,
+                                    "ap2ID": 1724965614641
                                 },
                                 {
                                     "ap1Name": "geometry",
