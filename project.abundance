@@ -789,7 +789,7 @@
                                 },
                                 {
                                     "name": "Mid Length",
-                                    "ioValue": 10
+                                    "ioValue": 800
                                 },
                                 {
                                     "name": "Trunk width",
@@ -932,7 +932,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 0
+                                            "ioValue": 266.66666666666663
                                         },
                                         {
                                             "name": "zDist",
@@ -968,8 +968,8 @@
                                 {
                                     "atomType": "Equation",
                                     "name": "(1/3)*T",
-                                    "x": 0.2671875,
-                                    "y": 0.6729411764705883,
+                                    "x": 0.2505208333333333,
+                                    "y": 0.9388235294117646,
                                     "uniqueID": 1724952954727,
                                     "ioValues": [
                                         {
@@ -981,17 +981,17 @@
                                 },
                                 {
                                     "atomType": "Equation",
-                                    "name": "(1/3)*T",
-                                    "x": 0.2583333333333333,
-                                    "y": 0.8870588235294117,
+                                    "name": "(1/3)*L",
+                                    "x": 0.24427083333333333,
+                                    "y": 0.7976470588235294,
                                     "uniqueID": 1724953525432,
                                     "ioValues": [
                                         {
-                                            "name": "T",
-                                            "ioValue": 1400
+                                            "name": "L",
+                                            "ioValue": 800
                                         }
                                     ],
-                                    "currentEquation": "(1/3)*T"
+                                    "currentEquation": "(1/3)*L"
                                 }
                             ],
                             "allConnectors": [
@@ -1015,6 +1015,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 1724881952313,
                                     "ap2ID": 1724952835267
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "L",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724881952492,
+                                    "ap2ID": 1724953525432
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1063,6 +1070,13 @@
                                     "ap2Name": "xDist",
                                     "ap2Primary": false,
                                     "ap1ID": 1724952954727,
+                                    "ap2ID": 1724952932934
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "yDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724953525432,
                                     "ap2ID": 1724952932934
                                 }
                             ],
@@ -1186,6 +1200,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1724878174740,
                             "ap2ID": 1724881970231
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Mid Length",
+                            "ap2Primary": false,
+                            "ap1ID": 1724878174740,
+                            "ap2ID": 1724881952069
                         },
                         {
                             "ap1Name": "number or geometry",
