@@ -943,13 +943,13 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.48854166666666665,
-                                    "y": 0.2611764705882353,
+                                    "x": 0.5598958333333334,
+                                    "y": 0.2635294117647059,
                                     "uniqueID": 1724952946782,
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": ""
+                                            "ioValue": 1724952932934
                                         },
                                         {
                                             "name": "xDist",
@@ -957,7 +957,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 0
+                                            "ioValue": 266.66666666666663
                                         },
                                         {
                                             "name": "zDist",
@@ -982,8 +982,8 @@
                                 {
                                     "atomType": "Equation",
                                     "name": "(1/3)*L",
-                                    "x": 0.24427083333333333,
-                                    "y": 0.7976470588235294,
+                                    "x": 0.24947916666666667,
+                                    "y": 0.8,
                                     "uniqueID": 1724953525432,
                                     "ioValues": [
                                         {
@@ -992,6 +992,38 @@
                                         }
                                     ],
                                     "currentEquation": "(1/3)*L"
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "(1/3)*L",
+                                    "x": 0.2484375,
+                                    "y": 0.64,
+                                    "uniqueID": 1724953677201,
+                                    "ioValues": [
+                                        {
+                                            "name": "L",
+                                            "ioValue": 800
+                                        }
+                                    ],
+                                    "currentEquation": "(1/3)*L"
+                                },
+                                {
+                                    "atomType": "Join",
+                                    "name": "Assembly",
+                                    "x": 0.6739583333333333,
+                                    "y": 0.40941176470588236,
+                                    "uniqueID": 1724953747932,
+                                    "ioValues": [
+                                        {
+                                            "name": "3D shape 1",
+                                            "ioValue": 1724952946782
+                                        },
+                                        {
+                                            "name": "3D shape 2",
+                                            "ioValue": 1724952932934
+                                        }
+                                    ],
+                                    "unionType": "Assembly"
                                 }
                             ],
                             "allConnectors": [
@@ -1022,6 +1054,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 1724881952492,
                                     "ap2ID": 1724953525432
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "L",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724881952492,
+                                    "ap2ID": 1724953677201
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1066,6 +1105,27 @@
                                     "ap2ID": 1724952932934
                                 },
                                 {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1724952932934,
+                                    "ap2ID": 1724952946782
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724952932934,
+                                    "ap2ID": 1724953747932
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724952946782,
+                                    "ap2ID": 1724953747932
+                                },
+                                {
                                     "ap1Name": "result",
                                     "ap2Name": "xDist",
                                     "ap2Primary": false,
@@ -1078,6 +1138,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 1724953525432,
                                     "ap2ID": 1724952932934
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "yDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724953677201,
+                                    "ap2ID": 1724952946782
                                 }
                             ],
                             "fileTypeVersion": 1,
