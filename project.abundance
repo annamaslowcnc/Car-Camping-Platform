@@ -225,10 +225,45 @@
                                 },
                                 {
                                     "atomType": "Equation",
-                                    "name": "x + y",
+                                    "name": "H-2*T-5",
                                     "x": 0.17291666666666666,
                                     "y": 0.15294117647058825,
                                     "uniqueID": 1724964894008,
+                                    "ioValues": [
+                                        {
+                                            "name": "H",
+                                            "ioValue": 150
+                                        },
+                                        {
+                                            "name": "T",
+                                            "ioValue": 18
+                                        }
+                                    ],
+                                    "currentEquation": "H-2*T-5"
+                                },
+                                {
+                                    "atomType": "Extrude",
+                                    "name": "Extrude",
+                                    "x": 0.29791666666666666,
+                                    "y": 0.23529411764705882,
+                                    "uniqueID": 1724964959335,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": 1724964785958
+                                        },
+                                        {
+                                            "name": "height",
+                                            "ioValue": 109
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "x + y",
+                                    "x": 0.29635416666666664,
+                                    "y": 0.47764705882352937,
+                                    "uniqueID": 1724964998346,
                                     "ioValues": [
                                         {
                                             "name": "x",
@@ -240,15 +275,75 @@
                                         }
                                     ],
                                     "currentEquation": "x + y"
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.43333333333333335,
+                                    "y": 0.3552941176470588,
+                                    "uniqueID": 1724965027993,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": ""
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 2
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "H",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724964537378,
+                                    "ap2ID": 1724964894008
+                                },
                                 {
                                     "ap1Name": "number or geometry",
                                     "ap2Name": "y length",
                                     "ap2Primary": false,
                                     "ap1ID": 1724964538002,
                                     "ap2ID": 1724964785958
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "T",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724964538002,
+                                    "ap2ID": 1724964894008
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1724964785958,
+                                    "ap2ID": 1724964959335
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "height",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724964894008,
+                                    "ap2ID": 1724964959335
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "yDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724964998346,
+                                    "ap2ID": 1724965027993
                                 }
                             ],
                             "fileTypeVersion": 1,
