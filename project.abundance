@@ -1269,8 +1269,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.38645833333333335,
-                                    "y": 0.24705882352941178,
+                                    "x": 0.3776041666666667,
+                                    "y": 0.1764705882352941,
                                     "uniqueID": 1724956020420,
                                     "ioValues": [
                                         {
@@ -1283,11 +1283,61 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -100
+                                            "ioValue": 0
                                         },
                                         {
                                             "name": "zDist",
                                             "ioValue": -5
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.45052083333333337,
+                                    "y": 0.5247058823529412,
+                                    "uniqueID": 1724956613924,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": 1724956020420
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.5260416666666667,
+                                    "y": 0.7552941176470588,
+                                    "uniqueID": 1724956634600,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": 1724956613924
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
                                         }
                                     ]
                                 }
@@ -1306,6 +1356,20 @@
                                     "ap2Primary": true,
                                     "ap1ID": 1724955987672,
                                     "ap2ID": 1724956020420
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1724956020420,
+                                    "ap2ID": 1724956613924
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1724956613924,
+                                    "ap2ID": 1724956634600
                                 }
                             ],
                             "fileTypeVersion": 1,
