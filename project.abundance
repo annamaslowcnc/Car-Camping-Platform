@@ -1385,8 +1385,8 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.6,
-                                    "y": 0.7294117647058824,
+                                    "x": 0.6078125,
+                                    "y": 0.7388235294117647,
                                     "uniqueID": 1724956932363,
                                     "ioValues": [
                                         {
@@ -1395,15 +1395,15 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 1400
+                                            "ioValue": 1600
                                         }
                                     ]
                                 },
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.7661458333333333,
-                                    "y": 0.5647058823529412,
+                                    "x": 0.7421875,
+                                    "y": 0.42117647058823526,
                                     "uniqueID": 1724957017716,
                                     "ioValues": [
                                         {
@@ -1412,7 +1412,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 1400
+                                            "ioValue": 0
                                         },
                                         {
                                             "name": "yDist",
@@ -1420,9 +1420,23 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 0
+                                            "ioValue": 1400
                                         }
                                     ]
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "T+200",
+                                    "x": 0.47708333333333336,
+                                    "y": 0.7952941176470588,
+                                    "uniqueID": 1724957205264,
+                                    "ioValues": [
+                                        {
+                                            "name": "T",
+                                            "ioValue": 1400
+                                        }
+                                    ],
+                                    "currentEquation": "T+200"
                                 }
                             ],
                             "allConnectors": [
@@ -1442,14 +1456,14 @@
                                 },
                                 {
                                     "ap1Name": "number or geometry",
-                                    "ap2Name": "height",
+                                    "ap2Name": "T",
                                     "ap2Primary": false,
                                     "ap1ID": 1724953914746,
-                                    "ap2ID": 1724956932363
+                                    "ap2ID": 1724957205264
                                 },
                                 {
                                     "ap1Name": "number or geometry",
-                                    "ap2Name": "xDist",
+                                    "ap2Name": "zDist",
                                     "ap2Primary": false,
                                     "ap1ID": 1724953914746,
                                     "ap2ID": 1724957017716
@@ -1516,6 +1530,13 @@
                                     "ap2Primary": true,
                                     "ap1ID": 1724956932363,
                                     "ap2ID": 1724957017716
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "height",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724957205264,
+                                    "ap2ID": 1724956932363
                                 }
                             ],
                             "fileTypeVersion": 1,
