@@ -77,13 +77,21 @@
                 {
                     "atomType": "Molecule",
                     "name": "Drawers",
-                    "x": 0.165625,
-                    "y": 0.23529411764705882,
+                    "x": 0.17708333333333331,
+                    "y": 0.22352941176470587,
                     "uniqueID": 1724799024043,
                     "ioValues": [
                         {
-                            "name": "Wood Thickness",
-                            "ioValue": 10
+                            "name": "Back Length",
+                            "ioValue": 1000
+                        },
+                        {
+                            "name": "Trunk width",
+                            "ioValue": 1400
+                        },
+                        {
+                            "name": "Platform Height",
+                            "ioValue": 150
                         }
                     ],
                     "topLevel": false,
@@ -100,8 +108,32 @@
                             "atomType": "Input",
                             "name": "Wood Thickness",
                             "x": 0.013333333333333334,
-                            "y": 0.558235294117647,
-                            "uniqueID": 1724799499146,
+                            "y": 0.4658823529411764,
+                            "uniqueID": 1724964382023,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Back Length",
+                            "x": 0.013333333333333334,
+                            "y": 0.6541176470588235,
+                            "uniqueID": 1724964382232,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Trunk width",
+                            "x": 0.013333333333333334,
+                            "y": 0.7741176470588235,
+                            "uniqueID": 1724964382148,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Platform Height",
+                            "x": 0.013333333333333334,
+                            "y": 0.3058823529411765,
+                            "uniqueID": 1724964381593,
                             "ioValues": []
                         }
                     ],
@@ -112,8 +144,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Supports",
-                    "x": 0.165625,
-                    "y": 0.4564705882352941,
+                    "x": 0.16979166666666667,
+                    "y": 0.4894117647058823,
                     "uniqueID": 1724799049015,
                     "ioValues": [
                         {
@@ -554,6 +586,13 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Back Length",
+                    "ap2Primary": false,
+                    "ap1ID": 1724877444182,
+                    "ap2ID": 1724799024043
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Trunk width",
                     "ap2Primary": false,
                     "ap1ID": 1724877504609,
@@ -561,10 +600,24 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Trunk width",
+                    "ap2Primary": false,
+                    "ap1ID": 1724877504609,
+                    "ap2ID": 1724799024043
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Platform Height",
                     "ap2Primary": false,
                     "ap1ID": 1724877505241,
                     "ap2ID": 1724799068183
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Platform Height",
+                    "ap2Primary": false,
+                    "ap1ID": 1724877505241,
+                    "ap2ID": 1724799024043
                 }
             ],
             "fileTypeVersion": 1,
