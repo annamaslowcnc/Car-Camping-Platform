@@ -375,7 +375,12 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1724881905626,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": 1724882822670
+                                        }
+                                    ]
                                 },
                                 {
                                     "atomType": "Input",
@@ -567,42 +572,42 @@
                                         {
                                             "name": "3D shape 2",
                                             "ioValue": 1724882384764
+                                        },
+                                        {
+                                            "name": "3D shape 3",
+                                            "ioValue": 1724952195491
                                         }
                                     ],
                                     "unionType": "Assembly"
                                 },
                                 {
                                     "atomType": "Equation",
-                                    "name": "x + y",
-                                    "x": 0.34010416666666665,
-                                    "y": 0.8094117647058824,
+                                    "name": "(1/3)*W",
+                                    "x": 0.22395833333333334,
+                                    "y": 0.8305882352941176,
                                     "uniqueID": 1724952182921,
                                     "ioValues": [
                                         {
-                                            "name": "x",
-                                            "ioValue": 1
-                                        },
-                                        {
-                                            "name": "y",
-                                            "ioValue": 1
+                                            "name": "W",
+                                            "ioValue": 1400
                                         }
                                     ],
-                                    "currentEquation": "x + y"
+                                    "currentEquation": "(1/3)*W"
                                 },
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.4692708333333333,
-                                    "y": 0.7811764705882354,
+                                    "x": 0.5541666666666667,
+                                    "y": 0.8258823529411764,
                                     "uniqueID": 1724952195491,
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": ""
+                                            "ioValue": 1724882374002
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 0
+                                            "ioValue": 466.66666666666663
                                         },
                                         {
                                             "name": "yDist",
@@ -702,6 +707,13 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1724882374002,
+                                    "ap2ID": 1724952195491
+                                },
+                                {
+                                    "ap1Name": "geometry",
                                     "ap2Name": "3D shape 2",
                                     "ap2Primary": false,
                                     "ap1ID": 1724882384764,
@@ -727,10 +739,38 @@
                                     "ap2Primary": false,
                                     "ap1ID": 1724882758845,
                                     "ap2ID": 1724882389112
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "W",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724882758845,
+                                    "ap2ID": 1724952182921
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724882822670,
+                                    "ap2ID": 1724881905626
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "xDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724952182921,
+                                    "ap2ID": 1724952195491
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 3",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1724952195491,
+                                    "ap2ID": 1724882822670
                                 }
                             ],
                             "fileTypeVersion": 1,
-                            "compiledBom": {}
+                            "compiledBom": []
                         },
                         {
                             "atomType": "Molecule",
