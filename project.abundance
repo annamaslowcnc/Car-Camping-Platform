@@ -443,7 +443,19 @@
                                             "ioValue": 18
                                         },
                                         {
+                                            "name": "Drawer Width",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "Drawer Length",
+                                            "ioValue": 10
+                                        },
+                                        {
                                             "name": "Lenth",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "Height",
                                             "ioValue": 10
                                         }
                                     ],
@@ -1210,12 +1222,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1724798926512,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1724959177941
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
@@ -1522,12 +1529,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1724799103120,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1724957878761
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Input",
@@ -2991,7 +2993,7 @@
                             "atomType": "Join",
                             "name": "Assembly",
                             "x": 0.76875,
-                            "y": 0.5247058823529412,
+                            "y": 0.5152941176470588,
                             "uniqueID": 1724957878761,
                             "ioValues": [
                                 {
@@ -3004,39 +3006,6 @@
                                 }
                             ],
                             "unionType": "Assembly"
-                        },
-                        {
-                            "atomType": "CutLayout",
-                            "name": "Cut Layout",
-                            "x": 0.8421875,
-                            "y": 0.8070588235294117,
-                            "uniqueID": 1724957946888,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1724957878761
-                                },
-                                {
-                                    "name": "Material Thickness",
-                                    "ioValue": 19
-                                },
-                                {
-                                    "name": "Sheet Width",
-                                    "ioValue": 2438
-                                },
-                                {
-                                    "name": "Sheet Height",
-                                    "ioValue": 1219
-                                },
-                                {
-                                    "name": "Part Padding",
-                                    "ioValue": 6
-                                },
-                                {
-                                    "name": "Sheet Padding",
-                                    "ioValue": 76
-                                }
-                            ]
                         }
                     ],
                     "allConnectors": [
@@ -3235,13 +3204,6 @@
                             "ap2Primary": false,
                             "ap1ID": 1724957865332,
                             "ap2ID": 1724957878761
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 1724957878761,
-                            "ap2ID": 1724957946888
                         },
                         {
                             "ap1Name": "geometry",
