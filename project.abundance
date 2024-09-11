@@ -1222,7 +1222,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1724798926512,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1724959177941
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -1529,7 +1534,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1724799103120,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1724957878761
+                                }
+                            ]
                         },
                         {
                             "atomType": "Input",
