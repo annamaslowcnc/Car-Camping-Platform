@@ -1583,10 +1583,6 @@
                                 {
                                     "name": "Mid Length",
                                     "ioValue": 800
-                                },
-                                {
-                                    "name": "Trunk width",
-                                    "ioValue": 1400
                                 }
                             ],
                             "topLevel": false,
@@ -1776,7 +1772,7 @@
                                     "atomType": "Input",
                                     "name": "Trunk width",
                                     "x": 0.013333333333333334,
-                                    "y": 0.7905882352941177,
+                                    "y": 0.8682352941176471,
                                     "uniqueID": 1724882758845,
                                     "ioValues": []
                                 },
@@ -1805,8 +1801,8 @@
                                 {
                                     "atomType": "Equation",
                                     "name": "(1/3)*W",
-                                    "x": 0.22395833333333334,
-                                    "y": 0.8305882352941176,
+                                    "x": 0.22708333333333333,
+                                    "y": 0.8517647058823529,
                                     "uniqueID": 1724952182921,
                                     "ioValues": [
                                         {
@@ -1858,6 +1854,14 @@
                                         "cutLayout"
                                     ],
                                     "cutTag": true
+                                },
+                                {
+                                    "atomType": "Constant",
+                                    "name": "Constant",
+                                    "x": 0.6463541666666667,
+                                    "y": 0.18588235294117647,
+                                    "uniqueID": 1726086966937,
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -3109,13 +3113,6 @@
                             "ap2Primary": true,
                             "ap1ID": 1724881970231,
                             "ap2ID": 1724957747883
-                        },
-                        {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "Trunk width",
-                            "ap2Primary": false,
-                            "ap1ID": 1724882590438,
-                            "ap2ID": 1724881904877
                         },
                         {
                             "ap1Name": "number or geometry",
