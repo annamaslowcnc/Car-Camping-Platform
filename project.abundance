@@ -2985,8 +2985,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.671875,
-                            "y": 0.8541176470588235,
+                            "x": 0.6703125,
+                            "y": 0.8611764705882352,
                             "uniqueID": 1724957865332,
                             "ioValues": [
                                 {
@@ -3016,6 +3016,19 @@
                                 }
                             ],
                             "unionType": "Assembly"
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.8125,
+                            "y": 0.771764705882353,
+                            "uniqueID": 1726086510228,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 10
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
