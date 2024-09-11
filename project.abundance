@@ -2985,8 +2985,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.6703125,
-                            "y": 0.8611764705882352,
+                            "x": 0.6697916666666667,
+                            "y": 0.8588235294117648,
                             "uniqueID": 1724957865332,
                             "ioValues": [
                                 {
@@ -3013,24 +3013,6 @@
                                 {
                                     "name": "3D shape 2",
                                     "ioValue": 1724957852529
-                                }
-                            ],
-                            "unionType": "Assembly"
-                        },
-                        {
-                            "atomType": "Join",
-                            "name": "Assembly",
-                            "x": 0.8807291666666667,
-                            "y": 0.7129411764705882,
-                            "uniqueID": 1726086738055,
-                            "ioValues": [
-                                {
-                                    "name": "3D shape 2",
-                                    "ioValue": 1724957865332
-                                },
-                                {
-                                    "name": "3D shape 3",
-                                    "ioValue": 1724957769645
                                 }
                             ],
                             "unionType": "Assembly"
@@ -3214,13 +3196,6 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "3D shape 3",
-                            "ap2Primary": false,
-                            "ap1ID": 1724957769645,
-                            "ap2ID": 1726086738055
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "geometry2",
                             "ap2Primary": false,
                             "ap1ID": 1724957819841,
@@ -3239,13 +3214,6 @@
                             "ap2Primary": false,
                             "ap1ID": 1724957865332,
                             "ap2ID": 1724957878761
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 2",
-                            "ap2Primary": false,
-                            "ap1ID": 1724957865332,
-                            "ap2ID": 1726086738055
                         },
                         {
                             "ap1Name": "geometry",
