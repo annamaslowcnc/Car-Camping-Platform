@@ -3018,22 +3018,22 @@
                             "unionType": "Assembly"
                         },
                         {
-                            "atomType": "Equation",
-                            "name": "x + y",
-                            "x": 0.8453124999999999,
-                            "y": 0.7811764705882354,
-                            "uniqueID": 1726086635089,
+                            "atomType": "Join",
+                            "name": "Assembly",
+                            "x": 0.8807291666666667,
+                            "y": 0.7129411764705882,
+                            "uniqueID": 1726086738055,
                             "ioValues": [
                                 {
-                                    "name": "x",
-                                    "ioValue": 1
+                                    "name": "3D shape 2",
+                                    "ioValue": 1724957865332
                                 },
                                 {
-                                    "name": "y",
-                                    "ioValue": 1
+                                    "name": "3D shape 3",
+                                    "ioValue": 1724957769645
                                 }
                             ],
-                            "currentEquation": "x + y"
+                            "unionType": "Assembly"
                         }
                     ],
                     "allConnectors": [
@@ -3214,6 +3214,13 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "3D shape 3",
+                            "ap2Primary": false,
+                            "ap1ID": 1724957769645,
+                            "ap2ID": 1726086738055
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "geometry2",
                             "ap2Primary": false,
                             "ap1ID": 1724957819841,
@@ -3233,7 +3240,13 @@
                             "ap1ID": 1724957865332,
                             "ap2ID": 1724957878761
                         },
-                        null,
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 1724957865332,
+                            "ap2ID": 1726086738055
+                        },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
