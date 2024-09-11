@@ -1583,14 +1583,6 @@
                                 {
                                     "name": "Mid Length",
                                     "ioValue": 800
-                                },
-                                {
-                                    "name": "name1",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "name 2",
-                                    "ioValue": 10
                                 }
                             ],
                             "topLevel": false,
@@ -1864,20 +1856,75 @@
                                     "cutTag": true
                                 },
                                 {
-                                    "atomType": "Input",
-                                    "name": "name1",
-                                    "x": 0.013333333333333334,
-                                    "y": 0.8423529411764705,
-                                    "uniqueID": 1726087076785,
-                                    "ioValues": []
-                                },
-                                {
-                                    "atomType": "Input",
-                                    "name": "name 2",
-                                    "x": 0.013333333333333334,
-                                    "y": 0.9388235294117646,
-                                    "uniqueID": 1726087086315,
-                                    "ioValues": []
+                                    "atomType": "Molecule",
+                                    "name": "hello",
+                                    "x": 0.7713541666666667,
+                                    "y": 0.33647058823529413,
+                                    "uniqueID": 1726087200156,
+                                    "ioValues": [
+                                        {
+                                            "name": "Wood Thickness",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "Platform Height",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "Mid Length",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "Trunk width",
+                                            "ioValue": 10
+                                        }
+                                    ],
+                                    "topLevel": false,
+                                    "allAtoms": [
+                                        {
+                                            "atomType": "Output",
+                                            "name": "Output",
+                                            "x": 0.98,
+                                            "y": 0.5,
+                                            "uniqueID": 1726087200431,
+                                            "ioValues": []
+                                        },
+                                        {
+                                            "atomType": "Input",
+                                            "name": "Wood Thickness",
+                                            "x": 0.013333333333333334,
+                                            "y": 0.19294117647058825,
+                                            "uniqueID": 1726087200752,
+                                            "ioValues": []
+                                        },
+                                        {
+                                            "atomType": "Input",
+                                            "name": "Platform Height",
+                                            "x": 0.013333333333333334,
+                                            "y": 0.37764705882352934,
+                                            "uniqueID": 1726087200328,
+                                            "ioValues": []
+                                        },
+                                        {
+                                            "atomType": "Input",
+                                            "name": "Mid Length",
+                                            "x": 0.013333333333333334,
+                                            "y": 0.571764705882353,
+                                            "uniqueID": 1726087200777,
+                                            "ioValues": []
+                                        },
+                                        {
+                                            "atomType": "Input",
+                                            "name": "Trunk width",
+                                            "x": 0.013333333333333334,
+                                            "y": 0.6894117647058823,
+                                            "uniqueID": 1726087200918,
+                                            "ioValues": []
+                                        }
+                                    ],
+                                    "allConnectors": [],
+                                    "fileTypeVersion": 1,
+                                    "compiledBom": {}
                                 }
                             ],
                             "allConnectors": [
