@@ -1854,6 +1854,24 @@
                                         ""
                                     ],
                                     "cutTag": true
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "f(x)",
+                                    "x": 0.7614583333333333,
+                                    "y": 0.31529411764705884,
+                                    "uniqueID": 1726087646071,
+                                    "ioValues": [
+                                        {
+                                            "name": "f",
+                                            "ioValue": 1
+                                        },
+                                        {
+                                            "name": "x",
+                                            "ioValue": 1
+                                        }
+                                    ],
+                                    "currentEquation": "f(x)"
                                 }
                             ],
                             "allConnectors": [
