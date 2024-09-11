@@ -3018,17 +3018,22 @@
                             "unionType": "Assembly"
                         },
                         {
-                            "atomType": "Circle",
-                            "name": "Circle",
-                            "x": 0.8125,
-                            "y": 0.771764705882353,
-                            "uniqueID": 1726086510228,
+                            "atomType": "Equation",
+                            "name": "x + y",
+                            "x": 0.8453124999999999,
+                            "y": 0.7811764705882354,
+                            "uniqueID": 1726086635089,
                             "ioValues": [
                                 {
-                                    "name": "diameter",
-                                    "ioValue": 10
+                                    "name": "x",
+                                    "ioValue": 1
+                                },
+                                {
+                                    "name": "y",
+                                    "ioValue": 1
                                 }
-                            ]
+                            ],
+                            "currentEquation": "x + y"
                         }
                     ],
                     "allConnectors": [
@@ -3228,6 +3233,7 @@
                             "ap1ID": 1724957865332,
                             "ap2ID": 1724957878761
                         },
+                        null,
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
