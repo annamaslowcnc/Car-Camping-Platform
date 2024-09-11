@@ -1583,6 +1583,14 @@
                                 {
                                     "name": "Mid Length",
                                     "ioValue": 800
+                                },
+                                {
+                                    "name": "name1",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "name 2",
+                                    "ioValue": 10
                                 }
                             ],
                             "topLevel": false,
@@ -1772,7 +1780,7 @@
                                     "atomType": "Input",
                                     "name": "Trunk width",
                                     "x": 0.013333333333333334,
-                                    "y": 0.8682352941176471,
+                                    "y": 0.6894117647058823,
                                     "uniqueID": 1724882758845,
                                     "ioValues": []
                                 },
@@ -1839,9 +1847,9 @@
                                 },
                                 {
                                     "atomType": "Tag",
-                                    "name": ",cutLayout",
-                                    "x": 0.7208333333333333,
-                                    "y": 0.703529411764706,
+                                    "name": "cutLayout,",
+                                    "x": 0.7203125,
+                                    "y": 0.7011764705882353,
                                     "uniqueID": 1724957917243,
                                     "ioValues": [
                                         {
@@ -1850,17 +1858,25 @@
                                         }
                                     ],
                                     "tags": [
-                                        "",
-                                        "cutLayout"
+                                        "cutLayout",
+                                        ""
                                     ],
                                     "cutTag": true
                                 },
                                 {
-                                    "atomType": "Constant",
-                                    "name": "Constant",
-                                    "x": 0.6463541666666667,
-                                    "y": 0.18588235294117647,
-                                    "uniqueID": 1726086966937,
+                                    "atomType": "Input",
+                                    "name": "name1",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.8423529411764705,
+                                    "uniqueID": 1726087076785,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "name 2",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.9388235294117646,
+                                    "uniqueID": 1726087086315,
                                     "ioValues": []
                                 }
                             ],
